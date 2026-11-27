@@ -64,7 +64,7 @@ fun HomeScreen(navController: NavController) {
             if (upcoming.isEmpty()) {
                 item {
                     Card(modifier = Modifier.fillMaxWidth()) {
-                        Column(Modifier = Modifier.padding(20.dp)) {
+                        Column(modifier = Modifier.padding(20.dp)) {
                             Text("No upcoming assignments")
                             Text(
                                 "Tap + to add your first task",
