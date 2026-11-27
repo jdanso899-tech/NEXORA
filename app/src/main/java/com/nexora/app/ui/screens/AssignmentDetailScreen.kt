@@ -20,7 +20,9 @@ import java.util.*
 @Composable
 fun AssignmentDetailScreen(navController: NavController, id: String) {
     val vm: AssignmentViewModel = viewModel()
-    var assignment by remember { mutableStateOf(vm.getById(id)) }
+   var assignment by remember {
+    mutableStateOf<com.nexora.app.data.model.Assignment?>(null)
+}
     var answerText by remember { mutableStateOf(assignment?.answerText ?: "") }
 
     LaunchedEffect(id) {
