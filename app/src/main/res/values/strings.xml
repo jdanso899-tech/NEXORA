@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NEXORA</string>
+    <string name="home">Home</string>
+    <string name="assignments">Assignments</string>
+    <string name="friends">Friends</string>
+    <string name="ai_chat">AI Chat</string>
+    <string name="profile">Profile</string>
+    <string name="compare">Compare</string>
+    <string name="add_assignment">Add Assignment</string>
+    <string name="voice_note">Voice Note</string>
+    <string name="due_soon">Due soon</string>
+    <string name="share_answer">Share Answer</string>
+    <string name="compare_answers">Compare Answers</string>
+    <string name="call">Call</string>
+    <string name="text">Text</string>
+</resources>
