@@ -72,7 +72,7 @@ fun AddEditAssignmentScreen(navController: NavController) {
                 singleLine = true
             )
 
-            Spacer(Modifier = Modifier.weight(1f))
+            Spacer(modifier = Modifier.weight(1f))
 
             Button(
                 onClick = {
